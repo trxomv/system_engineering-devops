@@ -1,7 +1,7 @@
-# 🧰 system_engineering-devops
+# 🧰 0x00-shell_basics
 
 ## 📘 Contents
-1. [Project Overview](#-project-overview)
+1. [Overview](#-overview)
 2. [Directory Structure](#-directory-structure)
 3. [Learning Outcomes](#-learning-outcomes)
 4. [How to Run the Scripts](#-how-to-run-the-scripts)
@@ -9,11 +9,11 @@
 
 ---
 
-## 📘 Project Overview
-This project is part of the **Foundations of Linux and Version Control** learning track within the **ALX PATHWAY** Program.  
-It introduces the fundamental Linux shell commands and scripting skills required for efficient navigation and file management in a Unix-based environment.
+## 📘 Overview
+This directory contains Bash scripts that focus on the fundamental Linux shell commands and 
+scripting skills required for efficient navigation and file management in a Unix-based environment.
 
-Throughout this project, I created multiple Bash scripts that perform essential system operations such as:
+I created multiple Bash scripts that perform essential system operations such as:
 - Displaying the current working directory
 - Listing files and directories
 - Navigating to the home directory
@@ -30,7 +30,9 @@ system_engineering-devops/
 │ ├── 1-listit
 │ ├── 2-bring_me_home
 │ ├── 3-listfiles
-│ └── 4-listmorefiles
+│ ├── 4-listmorefiles
+│ └── README.md
+├── 0x01-shell_permissions/
 └── README.md
 ```
 ### ⚙️ Scripts Description
