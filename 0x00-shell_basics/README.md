@@ -33,6 +33,7 @@ system_engineering-devops/
 │ ├── 4-listmorefiles
 │ └── README.md
 ├── 0x01-shell_permissions/
+├── 0x02-shell_redirections/
 └── README.md
 ```
 ### ⚙️ Scripts Description

@@ -38,6 +38,7 @@ system_engineering-devops/
 │ ├── 12-directory_permissions
 │ ├── 13-change_group
 │ └── README.md
+├── 0x02-shell_redirections/
 └── README.md
 ```
 ### ⚙️ Scripts Description
