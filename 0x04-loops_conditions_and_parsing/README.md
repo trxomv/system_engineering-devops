@@ -39,6 +39,7 @@ system_engineering-devops/
 │   ├── 8-for_ls
 │   ├── 9-to_file_or_not_to_file
 │   └── README.md
+├── 0x05-processes_and_signals/
 └── README.md
 ```
 ### ⚙️ Scripts Description

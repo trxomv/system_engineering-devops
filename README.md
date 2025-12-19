@@ -5,7 +5,7 @@
 1. [About This Repository](#-About-This-Repository)
 2. [Project Structure](#Project-Structure)
 3. [Modules Overview](#-Modules-Overview)
-4. 🚀 How to Use This Repository
+4. [How to Run the Scripts](#-how-to-run-the-scripts)
 5. [Author](#%E2%80%8D-author)
 
 ---
@@ -27,6 +27,7 @@ system_engineering-devops/
 ├── 0x02-shell_redirections/
 ├── 0x03-shell_variables_expansions/
 ├── 0x04-loops_conditions_and_parsing/
+├── 0x05-processes_and_signals/
 └── README.md
 ```
 
@@ -70,6 +71,15 @@ This directory focuses on building logic and control flow in Bash Scripting. The
 * File Testing and Parsing: Employing Bash's file test operators (e.g., `-e`, `-f`, `-s`) within conditional logic to check file properties (existence, type, size) and act upon the results.
 
 Goal: To create robust and dynamic Bash scripts capable of handling various scenarios through controlled flow and logic.
+---
+### 🔹 [0x05-processes_and_signals](https://github.com/trxomv/system_engineering-devops/blob/main/0x05-processes_and_signals/README.md)
+This directory focuses on mastering Linux Process Management and Signal Handling within Bash scripting. The tasks are designed to provide a deep understanding of how the operating system manages execution and how to interact with it:
+ * **Process Identification:** Learning to retrieve and manipulate Process IDs (PIDs) using various techniques to monitor script execution.
+ * **Process Control:** Managing the lifecycle of processes, including creating background tasks and implementing different methods for process termination.
+ * **Signal Handling and Trapping:** Utilizing the `trap` command to intercept and respond to Linux signals (such as SIGTERM and SIGINT), allowing scripts to exhibit custom behaviors instead of simply exiting.
+ * **Graceful vs. Forceful Termination:** Understanding the critical differences between standard termination signals and the unmaskable SIGKILL (signal 9).
+ 
+ **Goal:** To develop advanced system scripts capable of monitoring themselves, responding to external OS signals, and managing system resources efficiently.
 ---
 
 ## 🚀 How to Use This Repository
